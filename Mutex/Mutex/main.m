@@ -20,6 +20,7 @@ int main(int argc, const char * argv[])
             dispatch_semaphore_wait(mutex, DISPATCH_TIME_FOREVER);
             count = count + 1;
             dispatch_semaphore_signal(mutex);
+            NSLog(@"Thread A count=%d",count);
         });
         
         // Thread B
@@ -27,6 +28,7 @@ int main(int argc, const char * argv[])
             dispatch_semaphore_wait(mutex, DISPATCH_TIME_FOREVER);
             count = count + 1;
             dispatch_semaphore_signal(mutex);
+            NSLog(@"Thread B count=%d",count);
         });
         
         [[NSRunLoop currentRunLoop] run];
