@@ -12,10 +12,10 @@ int main(int argc, const char * argv[])
 {
     @autoreleasepool
     {
-        // Thread A
         __block int count = 0;
         dispatch_semaphore_t mutex = dispatch_semaphore_create(1);
         
+        // Thread A
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
             dispatch_semaphore_wait(mutex, DISPATCH_TIME_FOREVER);
             count = count + 1;

@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		728165C5222C859C0067B1A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 728165C4222C859C0067B1A0 /* main.m */; };
+		7276E872223D05CC00BE71C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7276E871223D05CC00BE71C4 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		728165BF222C859C0067B1A0 /* CopyFiles */ = {
+		7276E86C223D05CC00BE71C4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		728165C1222C859C0067B1A0 /* LockTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LockTest; sourceTree = BUILT_PRODUCTS_DIR; };
-		728165C4222C859C0067B1A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7276E86E223D05CC00BE71C4 /* BarrierWithURLRequests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BarrierWithURLRequests; sourceTree = BUILT_PRODUCTS_DIR; };
+		7276E871223D05CC00BE71C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		728165BE222C859C0067B1A0 /* Frameworks */ = {
+		7276E86B223D05CC00BE71C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		728165B8222C859C0067B1A0 = {
+		7276E865223D05CC00BE71C4 = {
 			isa = PBXGroup;
 			children = (
-				728165C3222C859C0067B1A0 /* LockTest */,
-				728165C2222C859C0067B1A0 /* Products */,
+				7276E870223D05CC00BE71C4 /* BarrierWithURLRequests */,
+				7276E86F223D05CC00BE71C4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		728165C2222C859C0067B1A0 /* Products */ = {
+		7276E86F223D05CC00BE71C4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				728165C1222C859C0067B1A0 /* LockTest */,
+				7276E86E223D05CC00BE71C4 /* BarrierWithURLRequests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		728165C3222C859C0067B1A0 /* LockTest */ = {
+		7276E870223D05CC00BE71C4 /* BarrierWithURLRequests */ = {
 			isa = PBXGroup;
 			children = (
-				728165C4222C859C0067B1A0 /* main.m */,
+				7276E871223D05CC00BE71C4 /* main.m */,
 			);
-			path = LockTest;
+			path = BarrierWithURLRequests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		728165C0222C859C0067B1A0 /* LockTest */ = {
+		7276E86D223D05CC00BE71C4 /* BarrierWithURLRequests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 728165C8222C859C0067B1A0 /* Build configuration list for PBXNativeTarget "LockTest" */;
+			buildConfigurationList = 7276E875223D05CC00BE71C4 /* Build configuration list for PBXNativeTarget "BarrierWithURLRequests" */;
 			buildPhases = (
-				728165BD222C859C0067B1A0 /* Sources */,
-				728165BE222C859C0067B1A0 /* Frameworks */,
-				728165BF222C859C0067B1A0 /* CopyFiles */,
+				7276E86A223D05CC00BE71C4 /* Sources */,
+				7276E86B223D05CC00BE71C4 /* Frameworks */,
+				7276E86C223D05CC00BE71C4 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LockTest;
-			productName = LockTest;
-			productReference = 728165C1222C859C0067B1A0 /* LockTest */;
+			name = BarrierWithURLRequests;
+			productName = BarrierWithURLRequests;
+			productReference = 7276E86E223D05CC00BE71C4 /* BarrierWithURLRequests */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		728165B9222C859C0067B1A0 /* Project object */ = {
+		7276E866223D05CC00BE71C4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Anton Kovalchuk";
 				TargetAttributes = {
-					728165C0222C859C0067B1A0 = {
-						CreatedOnToolsVersion = 9.3.1;
+					7276E86D223D05CC00BE71C4 = {
+						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 728165BC222C859C0067B1A0 /* Build configuration list for PBXProject "LockTest" */;
+			buildConfigurationList = 7276E869223D05CC00BE71C4 /* Build configuration list for PBXProject "BarrierWithURLRequests" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 728165B8222C859C0067B1A0;
-			productRefGroup = 728165C2222C859C0067B1A0 /* Products */;
+			mainGroup = 7276E865223D05CC00BE71C4;
+			productRefGroup = 7276E86F223D05CC00BE71C4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				728165C0222C859C0067B1A0 /* LockTest */,
+				7276E86D223D05CC00BE71C4 /* BarrierWithURLRequests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		728165BD222C859C0067B1A0 /* Sources */ = {
+		7276E86A223D05CC00BE71C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				728165C5222C859C0067B1A0 /* main.m in Sources */,
+				7276E872223D05CC00BE71C4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		728165C6222C859C0067B1A0 /* Debug */ = {
+		7276E873223D05CC00BE71C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -176,14 +176,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		728165C7222C859C0067B1A0 /* Release */ = {
+		7276E874223D05CC00BE71C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,13 +229,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		728165C9222C859C0067B1A0 /* Debug */ = {
+		7276E876223D05CC00BE71C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -242,7 +244,7 @@
 			};
 			name = Debug;
 		};
-		728165CA222C859C0067B1A0 /* Release */ = {
+		7276E877223D05CC00BE71C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -253,25 +255,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		728165BC222C859C0067B1A0 /* Build configuration list for PBXProject "LockTest" */ = {
+		7276E869223D05CC00BE71C4 /* Build configuration list for PBXProject "BarrierWithURLRequests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				728165C6222C859C0067B1A0 /* Debug */,
-				728165C7222C859C0067B1A0 /* Release */,
+				7276E873223D05CC00BE71C4 /* Debug */,
+				7276E874223D05CC00BE71C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		728165C8222C859C0067B1A0 /* Build configuration list for PBXNativeTarget "LockTest" */ = {
+		7276E875223D05CC00BE71C4 /* Build configuration list for PBXNativeTarget "BarrierWithURLRequests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				728165C9222C859C0067B1A0 /* Debug */,
-				728165CA222C859C0067B1A0 /* Release */,
+				7276E876223D05CC00BE71C4 /* Debug */,
+				7276E877223D05CC00BE71C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 728165B9222C859C0067B1A0 /* Project object */;
+	rootObject = 7276E866223D05CC00BE71C4 /* Project object */;
 }
