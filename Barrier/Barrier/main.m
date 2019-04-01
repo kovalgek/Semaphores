@@ -26,7 +26,7 @@ int main(int argc, const char * argv[])
         for(int i = 0; i < kMaxThreadNumber; ++i)
         {
             dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-                
+
                 // rendezvous
                 NSLog(@"rendezvous thread=%@", [NSThread currentThread]);
                 
