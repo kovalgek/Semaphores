@@ -11,17 +11,17 @@ int main(int argc, const char * argv[])
 {
     @autoreleasepool
     {
-        dispatch_semaphore_t semaphore = dispatch_semaphore_create(0);
+        dispatch_semaphore_t a1Done = dispatch_semaphore_create(0);
 
         // Thread A
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
             NSLog(@"a1 thread=%@", [NSThread currentThread]);
-            dispatch_semaphore_signal(semaphore);
+            dispatch_semaphore_signal(a1Done);
         });
         
         // Thread B
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-            dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER);
+            dispatch_semaphore_wait(a1Done, DISPATCH_TIME_FOREVER);
             NSLog(@"b1 thread=%@", [NSThread currentThread]);
         });
         
