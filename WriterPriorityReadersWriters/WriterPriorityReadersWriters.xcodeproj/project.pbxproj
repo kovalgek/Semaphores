@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		723B32DB22949D9B008F36E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 723B32DA22949D9B008F36E4 /* main.m */; };
-		723B32E322949DBE008F36E4 /* Lightswitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 723B32E122949DBE008F36E4 /* Lightswitch.m */; };
-		724B132422949FDB00F8FBFE /* Program.m in Sources */ = {isa = PBXBuildFile; fileRef = 724B132322949FDB00F8FBFE /* Program.m */; };
+		724B13322295E18900F8FBFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 724B13312295E18900F8FBFE /* main.m */; };
+		724B133C2295E1A800F8FBFE /* Program.m in Sources */ = {isa = PBXBuildFile; fileRef = 724B13392295E1A800F8FBFE /* Program.m */; };
+		724B133D2295E1A800F8FBFE /* Lightswitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 724B133A2295E1A800F8FBFE /* Lightswitch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		723B32D522949D9B008F36E4 /* CopyFiles */ = {
+		724B132C2295E18900F8FBFE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,16 +25,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		723B32D722949D9B008F36E4 /* NoStarveReadersWriters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NoStarveReadersWriters; sourceTree = BUILT_PRODUCTS_DIR; };
-		723B32DA22949D9B008F36E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		723B32E122949DBE008F36E4 /* Lightswitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lightswitch.m; sourceTree = "<group>"; };
-		723B32E222949DBE008F36E4 /* Lightswitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lightswitch.h; sourceTree = "<group>"; };
-		724B132222949FDB00F8FBFE /* Program.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Program.h; sourceTree = "<group>"; };
-		724B132322949FDB00F8FBFE /* Program.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Program.m; sourceTree = "<group>"; };
+		724B132E2295E18900F8FBFE /* WriterPriorityReadersWriters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WriterPriorityReadersWriters; sourceTree = BUILT_PRODUCTS_DIR; };
+		724B13312295E18900F8FBFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		724B13382295E1A800F8FBFE /* Lightswitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lightswitch.h; sourceTree = "<group>"; };
+		724B13392295E1A800F8FBFE /* Program.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Program.m; sourceTree = "<group>"; };
+		724B133A2295E1A800F8FBFE /* Lightswitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lightswitch.m; sourceTree = "<group>"; };
+		724B133B2295E1A800F8FBFE /* Program.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Program.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		723B32D422949D9B008F36E4 /* Frameworks */ = {
+		724B132B2295E18900F8FBFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,100 +44,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		723B32CE22949D9B008F36E4 = {
+		724B13252295E18900F8FBFE = {
 			isa = PBXGroup;
 			children = (
-				723B32D922949D9B008F36E4 /* NoStarveReadersWriters */,
-				723B32D822949D9B008F36E4 /* Products */,
+				724B13302295E18900F8FBFE /* WriterPriorityReadersWriters */,
+				724B132F2295E18900F8FBFE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		723B32D822949D9B008F36E4 /* Products */ = {
+		724B132F2295E18900F8FBFE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				723B32D722949D9B008F36E4 /* NoStarveReadersWriters */,
+				724B132E2295E18900F8FBFE /* WriterPriorityReadersWriters */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		723B32D922949D9B008F36E4 /* NoStarveReadersWriters */ = {
+		724B13302295E18900F8FBFE /* WriterPriorityReadersWriters */ = {
 			isa = PBXGroup;
 			children = (
-				723B32E222949DBE008F36E4 /* Lightswitch.h */,
-				723B32E122949DBE008F36E4 /* Lightswitch.m */,
-				723B32DA22949D9B008F36E4 /* main.m */,
-				724B132222949FDB00F8FBFE /* Program.h */,
-				724B132322949FDB00F8FBFE /* Program.m */,
+				724B13382295E1A800F8FBFE /* Lightswitch.h */,
+				724B133A2295E1A800F8FBFE /* Lightswitch.m */,
+				724B133B2295E1A800F8FBFE /* Program.h */,
+				724B13392295E1A800F8FBFE /* Program.m */,
+				724B13312295E18900F8FBFE /* main.m */,
 			);
-			path = NoStarveReadersWriters;
+			path = WriterPriorityReadersWriters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		723B32D622949D9B008F36E4 /* NoStarveReadersWriters */ = {
+		724B132D2295E18900F8FBFE /* WriterPriorityReadersWriters */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 723B32DE22949D9B008F36E4 /* Build configuration list for PBXNativeTarget "NoStarveReadersWriters" */;
+			buildConfigurationList = 724B13352295E18900F8FBFE /* Build configuration list for PBXNativeTarget "WriterPriorityReadersWriters" */;
 			buildPhases = (
-				723B32D322949D9B008F36E4 /* Sources */,
-				723B32D422949D9B008F36E4 /* Frameworks */,
-				723B32D522949D9B008F36E4 /* CopyFiles */,
+				724B132A2295E18900F8FBFE /* Sources */,
+				724B132B2295E18900F8FBFE /* Frameworks */,
+				724B132C2295E18900F8FBFE /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = NoStarveReadersWriters;
-			productName = NoStarveReadersWriters;
-			productReference = 723B32D722949D9B008F36E4 /* NoStarveReadersWriters */;
+			name = WriterPriorityReadersWriters;
+			productName = WriterPriorityReadersWriters;
+			productReference = 724B132E2295E18900F8FBFE /* WriterPriorityReadersWriters */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		723B32CF22949D9B008F36E4 /* Project object */ = {
+		724B13262295E18900F8FBFE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Anton Kovalchuk";
 				TargetAttributes = {
-					723B32D622949D9B008F36E4 = {
+					724B132D2295E18900F8FBFE = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 723B32D222949D9B008F36E4 /* Build configuration list for PBXProject "NoStarveReadersWriters" */;
+			buildConfigurationList = 724B13292295E18900F8FBFE /* Build configuration list for PBXProject "WriterPriorityReadersWriters" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 723B32CE22949D9B008F36E4;
-			productRefGroup = 723B32D822949D9B008F36E4 /* Products */;
+			mainGroup = 724B13252295E18900F8FBFE;
+			productRefGroup = 724B132F2295E18900F8FBFE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				723B32D622949D9B008F36E4 /* NoStarveReadersWriters */,
+				724B132D2295E18900F8FBFE /* WriterPriorityReadersWriters */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		723B32D322949D9B008F36E4 /* Sources */ = {
+		724B132A2295E18900F8FBFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				724B132422949FDB00F8FBFE /* Program.m in Sources */,
-				723B32E322949DBE008F36E4 /* Lightswitch.m in Sources */,
-				723B32DB22949D9B008F36E4 /* main.m in Sources */,
+				724B133D2295E1A800F8FBFE /* Lightswitch.m in Sources */,
+				724B133C2295E1A800F8FBFE /* Program.m in Sources */,
+				724B13322295E18900F8FBFE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		723B32DC22949D9B008F36E4 /* Debug */ = {
+		724B13332295E18900F8FBFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -196,7 +196,7 @@
 			};
 			name = Debug;
 		};
-		723B32DD22949D9B008F36E4 /* Release */ = {
+		724B13342295E18900F8FBFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -248,7 +248,7 @@
 			};
 			name = Release;
 		};
-		723B32DF22949D9B008F36E4 /* Debug */ = {
+		724B13362295E18900F8FBFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -256,7 +256,7 @@
 			};
 			name = Debug;
 		};
-		723B32E022949D9B008F36E4 /* Release */ = {
+		724B13372295E18900F8FBFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -267,25 +267,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		723B32D222949D9B008F36E4 /* Build configuration list for PBXProject "NoStarveReadersWriters" */ = {
+		724B13292295E18900F8FBFE /* Build configuration list for PBXProject "WriterPriorityReadersWriters" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				723B32DC22949D9B008F36E4 /* Debug */,
-				723B32DD22949D9B008F36E4 /* Release */,
+				724B13332295E18900F8FBFE /* Debug */,
+				724B13342295E18900F8FBFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		723B32DE22949D9B008F36E4 /* Build configuration list for PBXNativeTarget "NoStarveReadersWriters" */ = {
+		724B13352295E18900F8FBFE /* Build configuration list for PBXNativeTarget "WriterPriorityReadersWriters" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				723B32DF22949D9B008F36E4 /* Debug */,
-				723B32E022949D9B008F36E4 /* Release */,
+				724B13362295E18900F8FBFE /* Debug */,
+				724B13372295E18900F8FBFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 723B32CF22949D9B008F36E4 /* Project object */;
+	rootObject = 724B13262295E18900F8FBFE /* Project object */;
 }

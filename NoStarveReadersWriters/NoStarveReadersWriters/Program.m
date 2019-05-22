@@ -57,7 +57,6 @@ static int kReadersCount = 10;
     NSLog(@"reader read number=%@ thread=%@", [self.array objectAtIndex:0], [NSThread currentThread]);
     
     [self.readSwitch unlock:self.roomEmpty];
-    
 }
 
 - (void) runWriter
